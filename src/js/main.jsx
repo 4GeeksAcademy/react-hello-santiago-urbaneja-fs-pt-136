@@ -9,10 +9,23 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Nav from './components/Navbar';
+import PlaceHolder from './components/Pholder';
+import Presentacion from './components/Card';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Nav/>
+    <Presentacion/>
+    <div className='placeholdersCentral'>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+      <PlaceHolder/>
+    </div>
   </React.StrictMode>,
 )
